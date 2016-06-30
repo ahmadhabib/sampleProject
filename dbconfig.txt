@@ -1,0 +1,91 @@
+package com.ahmed.simpleproject.config;
+
+import com.google.common.base.Preconditions;
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.instrument.classloading
+    .InstrumentationLoadTimeWeaver;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import javax.persistence.EntityManagerFactory;
+import javax.sql.DataSource;
+import java.beans.PropertyVetoException;
+import java.util.Properties;
+
+@Configuration
+@EnableTransactionManagement
+@PropertySource ( {"classpath:application.properties"})
+@ComponentScan (basePackages = {"com.ahmed.simpleproject"})
+@EnableJpaRepositories (basePackages = {"com.ahmed.simpleproject"})
+public class DatabaseConfig {
+
+    @Autowired
+    private Environment env;
+
+    public DatabaseConfig () {
+        super();
+    }
+
+    @Bean
+    public PlatformTransactionManager transactionManager () {
+
+        EntityManagerFactory factory = entityManagerFactory();
+        return new JpaTransactionManager(factory);
+    }
+
+    @Bean
+    public EntityManagerFactory entityManagerFactory () {
+        HibernateJpaVendorAdapter vendorAdapter =
+            new HibernateJpaVendorAdapter();
+        vendorAdapter.setShowSql(Boolean.TRUE);
+        LocalContainerEntityManagerFactoryBean factory =
+            new LocalContainerEntityManagerFactoryBean();
+
+        factory.setJpaVendorAdapter(vendorAdapter);
+        factory.setPackagesToScan("com.ahmed.simpleproject");
+        factory.setDataSource(dataSource());
+        factory.afterPropertiesSet();
+        factory.setLoadTimeWeaver(new InstrumentationLoadTimeWeaver());
+        return factory.getObject();
+    }
+
+    @Bean
+    public DataSource dataSource () {
+
+        final ComboPooledDataSource comboDataSource =
+            new ComboPooledDataSource();
+        try {
+            comboDataSource.setDriverClass(Preconditions.checkNotNull(
+                env.getProperty("jdbc.driverClassName")));
+            comboDataSource.setJdbcUrl(
+                Preconditions.checkNotNull(env.getProperty("jdbc.url")));
+            comboDataSource.setUser(
+                Preconditions.checkNotNull(env.getProperty("jdbc.username")));
+            comboDataSource.setPassword(
+                Preconditions.checkNotNull(env.getProperty("jdbc.password")));
+        } catch (PropertyVetoException e) {
+            e.printStackTrace();
+        }
+        return comboDataSource;
+    }
+
+    final Properties additionalProperties () {
+        final Properties hibernateProperties = new Properties();
+        hibernateProperties
+            .setProperty("hibernate.dialect", env.getProperty("hibernate.dialect"));
+        hibernateProperties.setProperty("hibernate.show_sql",
+                                        env.getProperty("hibernate.show_sql"));
+        return hibernateProperties;
+    }
+
+}
