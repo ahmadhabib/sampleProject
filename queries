@@ -1,0 +1,227 @@
+-------------------------------------------------------Id=1(Total Q=12)----------------------------------------------------------------------
+
+-- Q1:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'WHAT IS THE ACTIVE INGREDIENT IN THE GKHAIR HAIR TAMING SYSTEM WITH JUVEXIN?', 'GKhair original Hair Taming System includes the ingredient Methylene Glycol which is the mixture of formaldehyde and water. GKhair Hair Taming formulae, Resistant and Curly do release a free form of formaldegyde during the flat ironing process of the salon professional application. Resistant is 4%. Curly is 3%. The Best is 0%. GKhair offers THE BEST formula which is a smoothing application with a different application process that is 100% formladehyde free.');
+
+-- Q2:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'ARE THE RESULTS PERMANENT?', 'GKhair Treatments do not permantly change the structure of the hair, instead they are rearranging the hair molecules to reduce the natural curl pattern. You can expect the results to last 3-5 months depending on the home care regimen with GKhair products as well as your natural hair texture. The GKhair treatments are progressive so with each treatment your hair will continue to improve over the time. No, as per the maintance, the results of the Hair Taming system will last up to 5 months.');
+
+-- Q3:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'WILL THIS TREATMENT CHANGE MY HAIR STRUCTURE?', 'The GKhair Hair Taming treatment repairs the damage in the hair from the inside out by filling the cuticles with keratin and Juvexin that is otherwise missing from the hair after other chemical services or environmental hazards like water and sun.');
+
+--Q4:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'WHAT MAKES THE HAIR TAMING SYSTEM BETTER THAN THE SMOOTHING SYSTEM I'M USING NOW?', 'What makes GKhair Hair Taming System different from any other smoothing system is Juvexin, our special anti-aging protien blend especially designed for hair.');
+
+--Q5:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'CAN YOU DO COLOR AND YOUR HAIR TAMING SYSTEM ON THE SAME DAY?', 'Yes, you may apply the color service first and after the service has been completed, you can proceed with the Hair Taming System.');
+
+--Q6:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'CAN THE HAIR TAMING SYSTEM BE APPLIED ON PREVIOUSLY RELAXED HAIR?', 'Yes! The Hair Taming system will restore the relaxed hair making it shinny and smoother.');
+
+--Q7:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'DOES THE HAIR TAMING SYSTEM WORK ON ETHNIC HAIR?', 'GKhair Hair Taming system works amazing on all types of hair! You just need to consider if the hair is very resistant, then you may need more than one treatment to achieve the desired results.');
+
+--Q8:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'ONE FORMULA WORKS FOR ALL TYPES OF HAIR?', 'The Best formula works on all hair types. Custom smoothing results can be achieved depending on the requirements of the client.');
+
+--Q9:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'CAN THIS SERVICE BE APPLIED ON CHILDREN?', 'We advise for children to be 12 years old before getting the resistant or curly formula done on their hair. However, If The Best treatment on children younger than 12 is to be applied, a written consent from parents is required.');
+
+--Q10:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'WHAT SHAMPOO AND CONDITIONER SHOULD BE USED AFTER GETTING THE HAIR TAMING SYSTEM DONE?', 'We strongly advise you to use the GKhair Shampoo and Conditioner of your preference. All of our products are sodium, parabens, petroleum and sulfate free. At the same time, they are infused with Juvexin so the keratin that you hair may loose because of the enviorement, blowdry and flat iron process can be restored.');
+
+--Q11:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'HOW OFTEN SHOULD I GET THE TREATMENT DONE?', 'GKhair Hair Taming System lasts for up to 5 months if you use the recommended after-care products. The system wash evenly from the hair so you can get your hair done every 3 - 5 months');
+
+--Q12:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('1', 'IF THE CLIENT WANTS TO GET THE TREATMENT AND COLOR WHICH SHOULD GO FIRST?', 'Color should come first before the Keratin treatmenent. No waiting time.');
+
+
+----------------------------------------------------------Id3(Total Q=19)-----------------------------------------------------------------
+
+--Q1:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'IF I COVER GREY, AND MY CLIENT LIKES A WARM NATURAL COLOR. IS USING AN INTENSE NATURAL ENOUGH, OR DO I NEED TO PUT IN SOME OF THE GOLDEN SERIES?', 'Intense Natural is enough. Yes they can be used alone on greys, though in case of high grey percentage as well as resistant and thick grey hair, it is advisable to choose a shade which is half level darker than the target shade and to increase the peroxide volume (1/2 5 + 1/2 4 + 30 vol developer to get a 5 natural result), or to use the Intense naturals (alone or mixed with the natural target color, on new regrowth only for regular retouch).');
+
+--Q2:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'HOW CAN I USE 1000 TO ACHIEVE MORE MORDANTING FOR THE MOST THICK GREY/WHITE HAIR?', 'The 1000 Bleaching Booster will soften the hair to achieve optimal grey coverage on even the most difficult hair types.');
+
+--Q3:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'WHILE COVERING VERY RESISTANT GREY HAIR (MIDDLE EASTERN LIKE) WHAT DEVELOPER IS RECOMMENDED?', 'You can use 20 Volume Developer for any % of grey/white hair.');
+
+--Q4:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'IS IT OKAY TO GO ONE SHADE DARKER AND MIX IT WITH 20% OF A 1000 BLEACHING BOOSTER IF THIS IS MY PREFERRED METHOD TO TAKE ONE TONE DARKER?', 'This is an option to very resistant coarse white hair.');
+
+--Q5:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'WHICH COLORS OF THE COLOR CHART HAVE MORE OR LESS GREY COVERAGE?', 'According to the percentage of greys, the red/copper fashion colors (especially light tones, from 6 to 10) need to be mixed with a natural tone according to the following instructions:');
+
+--Q6:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'WHEN COLORING GREY HAIR DO YOU NEED TO MIX A NATURAL TONE WITH COLORS SAY RED OR COPPER AS NOT TO PULL PINK?', 'According to the percentage of greys, the red/copper fashion colors (especially light tones, from 6 to 10) need to be mixed with a natural tone according to the following instructions:');
+
+--Q7:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'CAN THE NEUTRAL SERIES BE USED ALONE ON GREY HAIR?', 'Yes they can be used alone on greys, though in case of high grey percentage as well as resistant and thick grey hair, it is advisable to choose a shade which is half level darker than the target shade and to increase the peroxide volume (1/2 5 + 1/2 4 + 30 vol peroxide to get a 5 natural result), or to use the Intense naturals (alone or mixed with the natural target color, on new growth only for regular retouch).');
+
+--Q8:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'IS THERE AN INTENSE LINE? IF SO CAN IT BE USED ON GREY HAIR?', 'Yes, there is an intense natural line: the x.0 series. It is advisable for application on 100% greys as well as for mixing with red/copper colors on 100% grey new growth in retouches.');
+
+--Q9:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'IF I HAVE GREY RESISTANT HAIR, AND MY CLIENT WANTS A 6.93 AS A RESULT. I USE A 50/50 INTENSE NATURAL/693. DO YOU PREFER TO PUT IN A MIXTONE OR SOME EXTRA 6.99 OR 6.3 TO COUNTERACT THE INTENSE NATURAL?', 'GKhair Cream color you will get your grey coverage and the tone you want using 50% 5.0 and 50% 6.93.');
+
+--Q10:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'HOW DO YOU KNOW HOW TO FORMULATE GREY/WHITE COVERAGE MIXTURES DEPENDING ON THE % OF GREY/WHITE HAIR?', '1/2 not 1/3 According to the percentage of greys, the red/copper fashion colors (especially light tones, from 6 to 10) need to be mixed with a natural tone according to the following instructions:
+From 20% to 40% greys add up to 1/5 of natural color, from 40 to 60% it should be mixed with Â¼ of natural shade, in case of 70-100% greys mix up to 1/3 of natural shade.');
+
+--Q11:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'HOW TO USE SUPERLIGHTENERS & BLEACHING BOOSTER?', 'The best way to explain is to compare for you SUPERLIGHTENERS & BLEACHING BOOSTER
+1. Both of these products can be used on the scalp application.
+2. We do not recommend to mix Bleaching Booster with 40 Volume Creme Developer and Apply on the scalp.
+3. The pH & Ammonia content in the SUPERLIGHTENER & BLEACHING BOOSTER is the same as the 900S
+4. You can Mix the BLEACHING BOOSTER with the regular colors to have more lift and lightening.
+5. This BLEACHING BOOSTER can also be used on thick grey hair that is more difficult to achieve coverage to improve the coverage.
+6. Use the BLEACHING BOOSTER alone with Developer to lighten natural hair and remove the color.
+7. SUPERLIGHTENER's are high lift blonde colors to achieve maximum lift and deposit in a single process. Formulated to lighten natural hair up to 6 levels, they can be used for re-touches on bleached hair as well.
+For 5 Levels of Lift:
+SUPERLIGHTENER + 40 Volume Developer 1:2
+The BLEACHING BOOSTER can be mixed with SUPERLIGHTENER'S for additional lift.
+For 6 Levels of Lift:
+SUPERLIGHTENER S + 1000 BLEACHING BOOSTER + 40 Volume 1:2
+1000 Bleaching Booster What is the product used for an recommend formulation with Color + Developer
+The 1000 Bleaching Booster allows to increase the lifting power of SUPERLIGHTENER'S on natural hair.
+Mixing ratio:2/3 of SUPERLIGHTENER'S + 1/3 of 1000 with 40 Volume Creme Developer or 1/2 of SUPERLIGHTENER'S + 1/2 of 1000 with 40 Volume Creme Developer
+According to the quantity of 1000, a higher lifting boost will be achieved.It can be mixed with any color in order to have a boost in lifting and brightening.Mixing ratio: 4/5 of Color + 1/5 of 1000 It also can be mixed with a color shade in order to achieve more mordanting, for thick, grey and difficult hair (it improves coverage) Mixing ratio: 45 g of color + 5 g of 1000 (10% of the total mixture).It can be used alone with 20 or 30 Volume Creme Developer, to lighten natural hair as well as to remove the color from previously colored hair up to 2 levels');
+
+--Q12:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'IS THERE A HIGH LIFT BLONDE?', 'SUPERLIGHTENER'S series has the highest lifting ability, especially the "S" Colors (900S â€“ 901S)
+SUPERLIGHTENER'S allow 4 to 5 levels of lift. The 10 level blond shades mixed with 40 volumes peroxide allow to lift up to 3/4 levels.');
+
+--Q13:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'I WANT HAIR TO BECOME AS LIGHT AS POSSIBLE WITH A CREAM COLOR. HOW DO I CHOOSE THE SUPER LIGHTENER BASED ON THE TYPE OF HAIR?', 'Examples:
+Color Level 6 with lots of yellow and orange in it 901S
+Color Level 6 with only a slight warm tone 900 S
+Color Level 7/8 with slightly yellow 900 or 912 for a frosted/iced blond result
+Color Level 7/8 with no warmth at all. 907 or 900
+On color nr 7/8 with warm tone 901');
+
+--Q14:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'WHY SHOULD I USE A 900S OR 901S?', 'These shades will provide maximum lift. The strongest Superlighteners are 900 S and 901 S: they have been formulated to get the maximum lifting result with a cream color, if mixed with 40 volumes peroxide I inform you that we have developed the formula of a new super lightener 902 S that allows maximum lifting and perfectly neutralizes warm natural tones (orange pigment).');
+
+--Q15:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'CAN I USE THE MIXTONES AND SUPERLIGHTNERS WITH 8 VOLUME DEVELOPER TO GET PALE PASTEL COLORS?', 'Yes, it is advisable to use Superlighteners (not "S" series) mixed with Mixtones to get pastel colors. Pastels colors should be formulated with 900 or 1000, we recommend these shades rather then Superlightener â€œSâ€ Series. When formulated Pastel tones you don't need more lifting power but rather a neutral color to mix for reflection.');
+
+--Q16:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'IF I USE A 1000 BLEACHING BOOSTER TO LIGHTEN UP FOR INSTANCE 7.44, DOES IT ONLY MAKE LIGHTER OR DOES IT ALSO LOSE COLOR AND STRENGTH? DO I NEED TO PUT IN EXTRA COLOR WITH A MIXTONE IN THIS SITUATION?', 'If you mix 1000 Bleaching Booster with 7.44 you will dilute slightly the copper shade (depending on the quantity of 1000 Bleaching Booster you add to the mixture). If you want to get an intense copper result on a darker base than 7, the 1000 Bleaching Booster is useful but it is still more advisable to use 30 Volume Developer. You can add Mixtone whenever you want to achieve a more intense orange result.');
+
+--Q17:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'HOW DOES THE 1000 BLEACHING BOOSTER WORK TO REMOVE COLOR FROM PREVIOUS COLORED HAIR?', '1000 works as a mild color remover: it opens the hair scales and allow the color to fade away. Mixed 1:1,5 or 1:2 with 30-40 Volume Creme Developer, it allows to lighten previously colored hair up to 2 levels.');
+
+--Q18:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'ARE FILLERS THE SAME AS PRE-PIGMENTATION DO YOU MEAN EVERY METHOD OR PRODUCT YOU USE WHEN YOU CARRY OUT PRE PIGMENTATION?', 'Pre-pigmenting is an application technique used when the hair lengths are difficult to be colored as well as the base color is not uniform or hair is damaged, very porous and color fades out rapidly. To pre-pigment damaged as well as very light hair, the directions written in the manual are still valid. To pre-pigment the hair to be colored with a lighter fashion color, target color (not mixed with peroxide) is applied to the lengths. Then, color mixed with peroxide is applied to the new growth and later on to the lengths (removing excessive product if necessary).');
+
+--Q19:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('3', 'WHEN DO I USE 8 VOLUMES AND WHEN DO I USE 10?', 'Use can use 8 Volume Cream Developer doing a demi color deposit only, and 10 Volume Cream Developer if they are resistant or have a percentage of grey that needs a little bump to open the cuticle for a demi permanent color');
+
+--------------------------------------------------------------Id4(Total Q=25)---------------------------------------------------------------
+
+--Q1:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'MY CLIENT'S HAIR IS TOO YELLOW?', 'When formulating your color application, remember to take into account the natural underlying pigment (the natural color left behind after lightening). Any of our ash series will help combat the yellow or brassiness.');
+
+--Q2:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'CAN I COLOR MY EYEBROWS AND EYELASHES?', 'Hair color should not be used to color eyebrows or eyelashes as this may cause blindness if it comes in contact with the eyes.');
+
+--Q3:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DO I NEED TO PERFORM A PATCH TEST PRIOR TO APPLICATION?', 'A patch test is always recommended to check for sensitivity or allergies.');
+
+--Q4:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHAT DOES NEVER BROWN OUT MEAN?', 'In some color lines red turns to brown due to fading.');
+
+--Q5:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHY SHOULD WE MAKE A MINOR ADJUSTMENT, AS IN: FINE OR COARSE HAIR NEEDS TO HAVE A MINOR ADJUSTMENT WITH FORMULATION?', 'Fine hair: Melanin is grouped more closely together so the hair takes color faster and can look darker. Coarse: Has a larger diameter with a tighter cuticle which can take longer to process.');
+
+--Q6:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHAT IS THE BASE OF THE COLORS?', 'The base colors of all the shades in the GK range are displayed in the color wheel you have in the color chart (neutral, blue, blue-violet, violet, red-violet, red, red-orange, orange, golden-orange, gold and green).As you can see in the color wheel, the natural color series have a neutral base, while, for example, the "ash" tones fall under the blue and blue/green base colors. Neutral base means that the colors are formed mixing oxidative dyes that produce a neutral brown color (neither blue nor green).');
+
+--Q7:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DO WE HAVE CORRECTORS?', 'Correctors are the MIXTONES, that you have in your color range.');
+
+--Q8:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'AMMONIA CONTENT FROM LEVELS 1-10?', '- Colors from level 1 to level 6 contain 1,5% of ammonia - Colors from 7 to 9 contain 2,1% - Colors at 10 level contain 2,4% - SUPERLIGHTENER'S contain 3%');
+
+--Q9:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'CAN THESE BE USED AS A SEMI PERMANENT OR DEMI PERMANENT?', 'These colors contain ammonia and color tends to deposit more deeply than in demi-permanent colors. To have a demi-permanent result, these colors should be used as follows: mix with 10 volumes peroxide according to the ratio 1:2 and apply on wet hair. Distribute the color mixture onto the lengths and then comb it from new growth to ends; leave on from 10 to 30 minutes according to the desired result (the longer is the processing time the more intense and longer lasting is the color result).');
+
+--Q10:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DOES IT PULL WARM OR COOL (NATURAL SERIES)?', 'The natural colors pull towards warm.');
+
+--Q11:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHAT IS THE POINT OF DIFFERENCE WITH THIS LINE?', 'It is a professional hair coloring treatment based on an innovative technology: the "Balanced Formulation System", a new scientific method to formulate hair color shades that allows to get the best color performance with the minimum concentration of dyestuff.Its creamy base, rich in Creatine, Ceramides and Keratin (Juvexin), protects and strengthens the hair fiber. CREATINE: natural amino acid that increases the number of electrostatic bonds in the hair, improving the tension resistance. It develops an effective repairing action and grants maximum hair protection, while prevents damages caused by chemical treatments.It has a nourishing power and imparts extra-shine and a healthy looking.CERAMIDES: easily incorporated between the cuticular cells, they increase the cellular cohesion : they are able to exert a role as cement through their affinity to the surrounding proteins. Because of their nature, Ceramides develop a double action:â€¢ rebuild the hair fibre (where requested), leaving the hair healthy and conditioned with KERATIN-JUVEXIN');
+
+--Q12:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'PROCESSING TIME, REGULAR RETOUCH, VIRGIN, DEMI AND HIGH LIFT? 30MIN?', 'In all cases the suggested processing time is 30 to 40 minutes (according to grey percentage, hair type, lifting level) except for high lift: in this case application time should be around 45/50 minutes on hair lengths to reach 4/5 levels of lift and 30 minutes on the new growth.');
+
+--Q13:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHAT IS THE PH?', 'The pH value of the cream (not of the mixture) is 9.5 for all colors, 11.0 for SUPERLIGHTENER'S and 11.5 for SUPERLIGHTENER'S S series.');
+
+--Q14:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DOES IT HAVE PPDS?', 'Yes');
+
+--Q15:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DOES IT HAVE ANILINE DYES?', 'Yes');
+
+--Q16:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'IS IT GLUTEN FREE?', 'Yes, it is gluten free');
+
+--Q17:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHAT IS THE AMMONIA CONTENT AND HOW DOES IT CHANGE LEVEL TO LEVEL IF IT DOES?', '- Colors from level 1 to level 6 contain 1,5% of ammonia - Colors from 7 to 9 contain 2,1% - Colors at 10 level contain 2,4% - SUPERLIGHTENER'S contain 3%');
+
+--Q18:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'WHAT IS THE RATIO OF PRIMARY COLORS IN THE NATURAL SERIES? ARE THERE ANY ADDITIVES TO NUETRALIZE OUT UNWANTED WARMTH MIXED INTO THEM ALREADY?', 'All the colors are formulated mixing oxidation dyes according to tables that show the results of all possible combinations. The starting oxidation dyes are not primary colors: they are browns, more or less cold as well as warm and they are mixed with dyes that enhance the desired shade. Of course, the unwanted warmth is neutralized adding a certain quantity of cold dye.');
+
+--Q19:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'IS THERE ANYTHING IN THE COLOR TO PREVENT SCALP IRRITATION?', 'The first step to prevent scalp irritation is reducing the contents of coloring matters: according to the "Balanced Formulation System" the quantity of dyes contained in the formulation of all colors is the exact amount requested to perfectly color the hair. Excessive coloring matter is the first responsible of itching and sensitization. The second step is not to exceed with ammonia and these colors are formulated with reduced ammonia contents. The third step is to mix the colors with a stabilized, protective peroxide. The last step is to add additives into the coloring creams: this color cream contains treating substances and polymers that develop a protecting action on the scalp.');
+
+--Q20:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DO THE FASHION COLORS SUCH AS RED AND COPPER HAVE A BASE IN THEM?', 'All colors have a "base" in them since they contain oxidation dyes that give brown shades, however in fashion colors this brown shade is minimum in order to allow the red/copper shade to stand out and shine.');
+
+--Q21:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'DOES IT FADE ON TONE?', 'Thanks to the "Balanced Formulation System", the oxidation dyes contained in each color formula are perfectly calculated to reduce the risk of fading and color changing. Unfortunately, fading is often the result of an incorrect application.');
+
+--Q22:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'HOW STRONG AND EFFECTIVE ARE DRAB (NEUTRALIZING, COOL) TONES?', 'Natural matte series (olive green) is effective to neutralize reddish underlying pigment, as well as Ash series (blue green) to fight orange shades. Pure neutralizers, like green, blue, ash, if added to the colors, efficaciously help to neutralize unwanted warmth in all cases.');
+
+--Q23:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'HOW LONG LASTING ARE THE MIX TONES IF USED ALONE ON PRE-LIGHTENED HAIR?', 'It depends on the base and on the quantity/quality of hair, if the hair is not too damaged and porous they can last up to 1 month.');
+
+--Q24:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'HOW DOES HAVING 1:1&1/2 RATIO OF COLOR TO DEVELOPER AFFECTS THE FINAL RESULT AND THE DEVELOPMENT OF THE COLOR PIGMENT?', 'The correct ratio to allow all the dyes contained in the color cream to oxidize and grant the best result is 1:1,5. If the color is mixed 1:1, the result will be darker, but less stable and less long-lasting because pigments do not develop completely. If the color is mixed 1:2, color result will be lighter and grey coverage will be more difficult.');
+
+--Q25:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('4', 'HOW WELL DO THE COLORS INTERMIX?', 'The colors are generally intermixed by hairdressers with good results.');
+
+------------------------------------------------------------------------id5 (Total Q=9)-------------------------------------------------------
+
+--Q1:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'WHY IS GKHAIR COLOR BETTER FOR MY HAIR?', 'JUVEXIN CREAM COLOR is infused with Juvexin to help restore hair back to a youthful state. Ceramides are an additional key ingredient to add moisture and protein to the hair fiber to achieve balance and strength reducing the hairâ€™s overall porosity and extend longevity.');
+
+--Q2:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'CAN I PUT OVER HENNA?', 'JUVEXIN CREAM COLOR is not recommended to put over a henna color. Always perform a strand test.');
+
+--Q3:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'DOES HAIR TYPE (CURLY, STRAIGHT, DRY OR OILY, COARSE OR FINE) ALTER COLOR-PROCESSING TIME?', 'Yes, hair type can change the color-processing time as it is also important to consider the hairâ€™s texture. Example: When an individual hair is coarse (large in diameter) or fine (small in diameter), coarse hair generally takes more time to absorb color so it requires a longer color processing. Fine hair generally takes less time to absorb color so requires a shorter color processing.');
+
+--Q4:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'CAN I USE A FLAT IRON OVER COLOR TREATED HAIR?', 'When using a flat iron on color treated hair use caution and always start at a lower temperature and reduce the heat of the iron if you notice color fading.');
+
+--Q5:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'CAN I USE JUVEXIN COLOR SEALING AFTER EACH RE-GROWTH COLOR APPLICATION?', 'You can apply JUVEXIN COLOR SEALING after each re-growth color application. However, it is mostly suggested to apply after a full color application from new growth to tip.');
+
+--Q6:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'CAN I PERM MY HAIR ON THE SAME DAY AS A JUVEXIN CREAM COLOR APPLICATION?', 'Perming and coloring the same day requires a careful analysis of the condition of the hair and scalp. Do not proceed if the scalp shows signs of irritation or if the hair is overly porous and shows signs of damage.');
+
+--Q7:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'CAN I RELAX MY HAIR ON THE SAME DAY AS A JUVEXIN CREAM COLOR APPLICATION?', 'On relaxed hair, color with 8 Volume Developer (Deposit Only) JUVEXIN CREAM COLOR on the same day after the relaxing service. When using permanent color wait for 2 weeks after the application.');
+
+--Q8:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'CAN I USE CREAM COLOR AFTER THE BEST?', 'You can apply Juvexin Cream Color after rinsing out The Best with the 1A Super Straight 1B and Reinforcing.');
+
+--Q9:
+INSERT INTO `tblFaqs` (`id_FaqCategory`, `question`, `answer`) VALUES ('5', 'WHAT ABOUT USING THE CREAM COLOR ON A CLIENT, WHICH IS ALREADY TREATED WITH THE BEST?', 'When using the Best and color is easy now as we have the new Italian style application. You can color the same day. Remember not to do the deep conditioner and serum until after your color is done. When you rinse the BEST out of the hair with really warm water, this will reopen the cuticle if you like you can take a small amount of GKhair Moisturizing Shampoo and just run it through the hair to make sure all product is rinsed out. Do not use any conditioner and then towel dry really well or rough dry and apply your color.');
+
